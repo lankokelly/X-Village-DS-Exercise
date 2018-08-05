@@ -1,13 +1,13 @@
 資料名稱:屏東縣政府警察局建置路口錄監系統設置地點  
 資料來源:https://data.gov.tw/dataset/86900  
-排序依:Camera lens Quantity(監視器數量)
-主要欄位說明: number(編號)、towns(鄉鎮)、location(路口)、Camera lens Quantity(監視器數量)
-選擇比較排序法: bubble sort 與 cocktail shaker sort
-     | bubble sort        | cocktail shaker sort
----- | ----               | ---
-time | 1.4426124969097323 | 0.003248239774448436
-穩定排序 | 是 | 是
-資料比數:1631
+排序依:Camera lens Quantity(監視器數量)  
+主要欄位說明: number(編號)、towns(鄉鎮)、location(路口)、Camera lens Quantity(監視器數量)  
+選擇比較排序法: bubble sort 與 cocktail shaker sort  
+     | bubble sort        | cocktail shaker sort  
+---- | ----               | ---  
+time | 1.4426124969097323 | 0.003248239774448436  
+穩定排序 | 是 | 是  
+資料比數:1631  
 說明:cocktail shaker sort 為 bubble sort 的輕微變形，cocktail shaker sort與bubble sort 
 不同的地方在於cocktail shaker sort從低到高然後從高到低(雙向)，而氣泡排序則僅從低到高去比較序列裡的每個元素(單向)。
 此資料 cocktail shaker sort 比 bubble sort 快，原因是氣泡排序只從一個方向進行比對（由低到高）且每次循環只移動一個項目。
