@@ -2,11 +2,13 @@
 資料來源:https://data.gov.tw/dataset/86900  
 排序依:Camera lens Quantity(監視器數量)  
 主要欄位說明: number(編號)、towns(鄉鎮)、location(路口)、Camera lens Quantity(監視器數量)  
-選擇比較排序法: bubble sort 與 cocktail shaker sort  
- sort | bubble sort        | cocktail shaker sort  
- ---- | ------------------ | --------------------  
- time | 1.4426124969097323 | 0.003248239774448436   
-穩定排序 | 是 | 是  
+選擇比較排序法: bubble sort 與 cocktail shaker sort    
+
+| sort | bubble sort | cocktail shaker sort |
+| ------------- | ------------- | ------------- |
+| time | 1.4426124969097323 | 0.003248239774448436 |
+| 穩定排序 | 是 | 是 |
+
 資料比數:1631  
 說明:cocktail shaker sort 為 bubble sort 的輕微變形，cocktail shaker sort與bubble sort 
 不同的地方在於cocktail shaker sort從低到高然後從高到低(雙向)，而氣泡排序則僅從低到高去比較序列裡的每個元素(單向)。
